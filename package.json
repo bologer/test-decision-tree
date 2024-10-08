@@ -1,0 +1,24 @@
+{
+  "name": "decision-tree",
+  "description": "A simple decision tree for a simple decision-making process",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tsc",
+    "dev": "./node_modules/.bin/ts-node-dev --poll --respawn --transpile-only --no-deps --ignore-watch node_modules ./index.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.4",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "express": "^4.21.0",
+    "logform": "^2.6.1",
+    "winston": "^3.15.0"
+  }
+}
